@@ -1,0 +1,310 @@
+body {
+  text-decoration: none;
+}
+
+.nav-container {
+  position: fixed !important;
+  margin-bottom: auto;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container a {
+  color: black;
+}
+
+.nav-title {
+  font-size: 35px;
+  font-family: "Lucida" serif;
+  margin-right: 50px;
+}
+
+.menu-list {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.menu-list li {
+  padding: 0 20px;
+}
+
+.slide_container {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.slide_container img {
+  width: 100%;
+}
+
+/* Promo */
+.promo-titles {
+  margin-top: 8pc;
+  text-align: center;
+}
+
+.promo-titles h1 {
+  font-family: "Lucida" serif;
+  font-size: 3.6rem;
+}
+
+.promo-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promo-img-cont {
+  font-family: "Lucida" serif;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 15px 15px;
+  width: 350px;
+}
+
+.promobtn {
+  width: 100%;
+}
+
+.promobtn button {
+  width: 100%;
+  padding: 7px 0;
+  border: unset;
+}
+
+.promobtn .promo-img-content img {
+  width: 350px;
+  height: 330px;
+}
+
+.promo-img-content .positioned-text {
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+.promo-img-content .positioned-text p:nth-child(2) {
+  text-align: end;
+}
+
+.product-container {
+  margin-top: 6pc;
+}
+
+.product-titles {
+  text-align: center;
+}
+
+.product-titles h1 {
+  font-family: "Lucida" serif;
+}
+
+.product-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3pc;
+}
+
+.product-titles .title {
+  font-family: "Lucida" serif;
+  font-size: 3.6rem;
+}
+
+.product-img-cont {
+  width: 350px;
+  margin: 0 15px 20px;
+}
+
+.product-img-cont .product-img-content img {
+  width: 100%;
+  height: 550px;
+}
+
+.product-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-rating i {
+  margin: 10px 3px 15px;
+  font-size: 0.7em;
+  color: #ffbb00;
+}
+
+.left-product-detail {
+  font-weight: bolder;
+}
+
+.left-product-detail p:last-child {
+  font-size: 1.7rem;
+}
+
+.right-product-detail button {
+  padding: 10px;
+  margin: 0 7px;
+}
+
+.shopping-cart {
+  background: brown;
+}
+
+.shopping-cart:hover {
+  background: #701919;
+}
+
+.checkout-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
+
+.checkout-content {
+  width: 45%;
+  height: 550px;
+  margin: 0 18px 15px;
+}
+
+.checkout-container .right-checkout-content {
+  border: 2px solid #522424;
+}
+
+.wish-container {
+  background: url(../images/images/gallery.jpg);
+  background-position: center;
+  margin: 60px 0;
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+
+.wish-container a {
+  color: #fff;
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin: 0 10px 0;
+  font-family: "Lucida" serif;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wish-container a:hover {
+  color: #937c6f;
+  text-decoration: none;
+}
+
+.wish-hashtags {
+  padding-top: 5pc;
+  width: 90%;
+  margin: 0 auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wish-hashtags .hashtags {
+  width: 90%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.wish-hashtags .wish-text {
+  text-align: center;
+}
+
+.wish-hashtags button {
+  margin-top: 20px;
+  padding: 10px 28px;
+  border: unset;
+  background-color: #937c6f;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.wish-hashtags button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.wish-images {
+  margin: 50px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wish-images img {
+  width: 180px;
+  height: 180px;
+  margin: 0 15px 15px;
+}
+
+.testimonials-container {
+  text-align: center;
+}
+
+.testimonials-titles .title {
+  font-family: "Lucida" serif;
+  font-size: 3.6rem;
+}
+
+@media (max-width: 576px) {
+  .promo-img-container,
+  .product-img-container,
+  .checkout-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .promo-img-cont,
+  .product-img-cont,
+  .checkout-content {
+    width: 95%;
+  }
+  .promo-img-content img,
+  .product-img-content img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
