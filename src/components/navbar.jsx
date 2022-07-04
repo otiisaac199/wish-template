@@ -12,7 +12,7 @@ class Navbar extends Component {
               Wish
             </a>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler bg-secondary"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"

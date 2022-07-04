@@ -8,6 +8,7 @@ import NewArrivals from "./components/newArrivals";
 import Checkout from "./components/checkout";
 import React from "react";
 import Testimonial from "./components/testimonials";
+// import Footer from "./component/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <NewArrivals />
       <Checkout />
       <Testimonial />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }

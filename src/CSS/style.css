@@ -42,7 +42,7 @@ body {
 }
 
 .promo-titles h1 {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3.6rem;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .promo-img-cont {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,7 +130,7 @@ body {
 }
 
 .product-titles h1 {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .product-img-container {
@@ -144,7 +144,7 @@ body {
 }
 
 .product-titles .title {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3.6rem;
 }
 
@@ -231,7 +231,7 @@ body {
   font-size: 2.7rem;
   font-weight: bold;
   margin: 0 10px 0;
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -292,8 +292,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  width: auto;
+  overflow-x: auto;
 }
 
 .wish-images img {
@@ -307,8 +307,35 @@ body {
 }
 
 .testimonials-titles .title {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3.6rem;
+  margin-bottom: 40px;
+}
+
+.testimonial-carousel img {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.testimonial-carousel .carousel-inner {
+  width: 100%;
+}
+
+.testimonial-carousel p {
+  font-family: serif;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+  margin: 0 auto 0;
+  width: 90%;
+  word-spacing: 5px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.testimonial-carousel p:last-child {
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 @media (max-width: 576px) {
@@ -331,6 +358,11 @@ body {
   .promo-img-content img,
   .product-img-content img {
     width: 100%;
+  }
+  .testimonial-carousel,
+  .testimonials-titles {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
   }
 }
 /*# sourceMappingURL=style.css.map */

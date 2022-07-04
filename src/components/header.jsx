@@ -13,13 +13,13 @@ class Header extends Component {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={slide} className="d-block w-100" alt="..." />
+              <img src={slide} className="d-block w-100" alt="" />
             </div>
             <div className="carousel-item">
-              {/* <img src={slide} className="d-block w-100" alt="..." /> */}
+              <img src={slide} className="d-block w-100" alt="" />
             </div>
             <div className="carousel-item">
-              <img src={slide} className="d-block w-100" alt="..." />
+              <img src={slide} className="d-block w-100" alt="" />
             </div>
           </div>
           <button

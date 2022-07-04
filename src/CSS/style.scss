@@ -40,7 +40,8 @@ body {
   margin-top: 8pc;
   text-align: center;
   h1 {
-    font-family: "Lucida" serif;
+    font-family: "Times New Roman", Times, serif;
+
     font-size: 3.6rem;
   }
 }
@@ -49,7 +50,7 @@ body {
   justify-content: center;
 }
 .promo-img-cont {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -118,7 +119,7 @@ body {
   text-align: center;
 }
 .product-titles h1 {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .product-img-container {
@@ -128,7 +129,7 @@ body {
 }
 
 .product-titles .title {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3.6rem;
 }
 
@@ -204,7 +205,7 @@ body {
   font-size: 2.7rem;
   font-weight: bold;
   margin: 0 10px 0;
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   transition: 0.3s;
 }
 
@@ -247,7 +248,8 @@ body {
   margin: 50px auto 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  width: auto;
+  overflow-x: auto;
 }
 
 .wish-images img {
@@ -261,8 +263,32 @@ body {
   text-align: center;
 }
 .testimonials-titles .title {
-  font-family: "Lucida" serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3.6rem;
+  margin-bottom: 40px;
+}
+.testimonial-carousel {
+  img {
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+  p {
+    font-family: serif;
+    transform: skew(-20deg);
+    margin: 0 auto 0;
+    width: 90%;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    &:last-child {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -280,5 +306,9 @@ body {
   .promo-img-content img,
   .product-img-content img {
     width: 100%;
+  }
+  .testimonial-carousel,
+  .testimonials-titles {
+    transform: scale(0.7);
   }
 }
