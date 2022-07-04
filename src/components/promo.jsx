@@ -18,7 +18,7 @@ class Promo extends Component {
               <div className="promo-img-content">
                 <img className="img-fluid" src={promo1} alt="" />
                 <div className="positioned-text text-light ">
-                  <p className="h1">-30% off</p>
+                  <p className="h2">-30% off</p>
                   <p>ON ALL BAGS</p>
                 </div>
               </div>
@@ -29,6 +29,10 @@ class Promo extends Component {
             <div className="promo-img-cont">
               <div className="promo-img-content">
                 <img className="img-fluid" src={promo2} alt="" />
+                <div className="positioned-text text-light ">
+                  <p className="h2">-30% off</p>
+                  <p>COATS & JACKET</p>
+                </div>
               </div>
               <a href="#" className="promobtn">
                 <button className="bg-dark text-light">Shop Now</button>
@@ -37,6 +41,10 @@ class Promo extends Component {
             <div className="promo-img-cont">
               <div className="promo-img-content">
                 <img className="img-fluid" src={promo3} alt="" />
+                <div className="positioned-text text-light ">
+                  <p className="h2">-25% off</p>
+                  <p>on Scandals</p>
+                </div>
               </div>
               <a href="#" className="promobtn">
                 <button className="bg-dark text-light">Shop Now</button>

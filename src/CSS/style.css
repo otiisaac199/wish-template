@@ -36,7 +36,6 @@ body {
   width: 100%;
 }
 
-/* Promo */
 .promo-titles {
   margin-top: 8pc;
   text-align: center;
@@ -70,11 +69,48 @@ body {
   width: 350px;
 }
 
-.promobtn {
+.promo-img-cont .positioned-text {
+  position: absolute;
+  font-size: 15px;
+  top: 40%;
+  right: 0;
+}
+
+.promo-img-cont .positioned-text:nth-child(2) {
+  font-weight: bold;
+}
+
+.promo-img-cont:nth-child(1) .positioned-text {
+  margin-right: 5px;
+}
+
+.promo-img-cont:nth-child(3) .positioned-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 5px;
+  height: auto;
+}
+
+.promo-img-cont:nth-child(1) .positioned-text p:nth-child(2), .promo-img-cont:nth-child(3) .positioned-text p:nth-child(2) {
+  text-align: end;
+}
+
+.promo-img-cont:nth-child(2) .positioned-text {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.promo-img-cont:nth-child(3) .positioned-text {
+  text-align: left;
+  right: unset;
+  left: 10px;
+}
+
+.promo-img-cont .promobtn {
   width: 100%;
 }
 
-.promobtn button {
+.promo-img-cont .promobtn button {
   width: 100%;
   padding: 7px 0;
   border: unset;
@@ -83,16 +119,6 @@ body {
 .promobtn .promo-img-content img {
   width: 350px;
   height: 330px;
-}
-
-.promo-img-content .positioned-text {
-  position: absolute;
-  top: 40%;
-  right: 0;
-}
-
-.promo-img-content .positioned-text p:nth-child(2) {
-  text-align: end;
 }
 
 .product-container {
